@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>BytescoutBarcode128 SDK barcode generation example</title>
+        <title>Barcode 128</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 		<!-- bytescoutbarcode128.js script containing bytescoutbarcode128 class to generate barcode image -->
@@ -10,14 +10,14 @@
 
     <body onload="updateBarcode()">
 		<form action="">
-			<p style="font-family: arial; font-size: 12px">Enter a value:</p>
+			<p style="font-family: arial; font-size: 12px">Enter a new value:</p>
 			<input id="barcodeValue" type="text" name="value" value="abcd123456" />
 			<input type="button" value="Generate" onclick="updateBarcode()" />
 		</form>
 		<p>
 		
 			<br />
-			<canvas id="barcodeCanvas" width="400" height="100"></canvas>
+			<canvas id="barcodeCanvas" width="400" height="300"></canvas>
 		</p>
         <script type="text/javascript">
         	function updateBarcode() 
