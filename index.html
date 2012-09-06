@@ -8,17 +8,17 @@
 		<script type="text/javascript" src="bytescoutbarcode128_1.00.07.js"></script>  
     </head>
 
-    <body onload="updateBarcode()">
-		<form action="">
+    <body onload="updateBarcode()" style="border: 1px solid black; padding: 20px; ">
+		<form action="" >
 			<p style="font-family: arial; font-size: 12px">Enter a new value:</p>
 			<input id="barcodeValue" type="text" name="value" value="abcd123456" />
 			<input type="button" value="Generate" onclick="updateBarcode()" />
 		</form>
-		<p>
+	
 		
 			<br />
-			<canvas id="barcodeCanvas" width="400" height="300"></canvas>
-		</p>
+			<canvas id="barcodeCanvas" width="100" height="80"></canvas>
+		
         <script type="text/javascript">
         	function updateBarcode() 
 			{
